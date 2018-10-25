@@ -1,0 +1,21 @@
+var tips;												//declare global variable
+
+$.ajax({												//set up request
+	beforeSend: function(xhr){							//Before requesting data
+		if (xhr.overrideMimeType) { 					//If supported
+			xhr.overrideMimeType("application/json");	//set MIME to prevent errors
+			}
+		}
+	});
+	
+//Function that collects data from the JSON file
+	function loadDataTable(){							//Declare function
+		$.getJSON('data_for_project.json')				//Try to collect JSON data
+		.done(function(data) {							//If successful
+			tips = data;								//store it in a variable
+		}).fail( function() {							//if a problem: show message
+			$('#event').html('Sorry! We could not load the tips at the moment');
+			});
+		}
+		
+loadDataTable();										//call the function		
