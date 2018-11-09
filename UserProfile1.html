@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="New User Profile Creation">
+    <title>User Profile</title>
+    <link rel ="stylesheet" href="UserProfileForm.css"/>
+  </head>
+  <body>
+    <div class="column0">
+      <h2>User Profile:</h2> </br>
+      <p id="Intro"></p>
+      <figure> 
+      <img src="profile_picture.jpg" class= "large" alt="Profile"/>
+      <figcaption> User Profile Picture </ficaption>
+      </figure>
+      </br>
+      <p id="inputFirst"></p>
+      <p id="inputLast"></p>
+      <p id="inputAge"></p>
+      <p id="inputDiagnosis"></p>
+      <form id="user_input_form" method="POST" action="UserProfile.html" target="_blank" onsubmit= "return false" class="form-look" >
+        <label>Screen Name: </br>
+        <input type="text" name="ScreenName" id="Screen" class="required" placeholder= "Ex. jSmith"> (required) <br/><br/>
+    	<label>Password: </br>
+    	<input type="text" name="Password" id="Pass" class="required" > (required)  <br/><br/>
+        <label>Confirm Password: </br>
+        <input type="password" name="ConfirmPassword" id="ConPass" class="required">  (required) <br/><br/>
+        <input type="checkbox" id="ShowPass"></input>
+        <label for="ShowPass">show password</label> <br></br>
+  
+		<label>First Name: </br>
+		<input type="text" name="FirstName" id="First" placeholder="Ex. John"> <br/><br/>
+        <label>Last Name: </br>
+        <input type="text" name="LastName" id="Last" placeholder="Ex. Smith"> <br/><br/>       
+        <label>Age: </br>
+        <input type="text" name="AgeOfUser" id="Age" placeholder="Ex. 65"> <br/><br/>
+        <label>Diagnosis: </br>
+        <select name="TypeOfD" id="TypeD"> 
+        					<option>--- Make selection ---</option>
+        					<option>Alzheimer's Disease</option>
+							<option>Creutzfeldt-Jakob Disease</option>
+							<option>Down Syndrome and Alzheimer's Disease</option>
+							<option>Frontotemporal Dementia</option>
+							<option>Huntington's Disease</option>
+							<option>Korsakoff Syndrome</option>
+							<option>Lewy Bodies</option>
+							<option>Mixed Dementia</option>
+							<option>Normal Pressure Hydrocephalus</option>
+							<option>Parkinson's Disease Dementia</option>
+							<option>Posterior Cortical Atrophy</option>
+							<option>Vascular Dementia</option>
+							<option>Other</option>
+						</select>
+						</br></br>
+						<p id="OtherTextBox"></p>
+      					<p id="TextBox"></p>
+      					<input type="submit" name="submitbutton" id="Go"> <br></br>
+	
+		
+
+     </form>
+      <p id="Go"></p>
+      <p id="SubmitButton"></p>
+    </div>
+    
+    <script src="utilities.js"></script>
+    <script src="UserInputForm1.js"></script> 
+  </body>
+</html>
