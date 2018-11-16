@@ -40,25 +40,24 @@ function elSubmitWhen() {
   		if (elScreenName.value === "") {
   			alert("You have not input a screen name. Please input a screen name.");
 			document.getElementById("Screen").focus();
-			var requ = document.getElementByClassName("required");//figure this out
-			requ.innerHTML="This field is required"
+			return false// Stop the form from being sent
 			
   			//put focus on screen name text box
   			}
   		else if (elPass.value === "") {
   			alert("You have not entered a password. We cannot add your profile without a password");
   			document.getElementById("Pass").focus(); // Stop the form from being sent
-  
+  			return false
   			}
   		else if (elPass.value.length < 8) {
   			alert("Your passwords less than 8 characters. Please update your password to be at least 8 characters.");
   			document.getElementById("ConPass").focus();//put focus on password text box
-  		
+  			return false
   			}
   		else if (elConPass.value !== elPass.value) {
   			alert("Your passwords don't match. We can't add your profile until your password is confirmed.");
   			document.getElementById("ConPass").focus();//put focus on confirm password text box
-  		
+  			return false
   			}
 	}
 }
