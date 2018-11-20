@@ -5,10 +5,41 @@ div.column0 {
 	background: #FAFAFA;
 	padding: 30px;
 	margin: 50px auto;
-	box-shadow: 1px 1px 25px rgba(0, 0, 0, 0.35);
+	box-shadow: 1px 1px 25px steelblue;
 	border-radius: 10px;
 	border: 6px solid #305A72;
 
 }
 
+   ul{
+    	list-style: none;
+    	float: left;
+    	margin: 0;
+    	padding: 0px;
+    	overflow: auto;
+    	background-color: steelblue;
+    	position: fixed;
+    	top: 0;
+    	width: 100%;
+	}
+     
+    li {
+    	float: left;
+    	}
+	a {
+    	display: inline-block;
+    	color: white;
+    	text-align: center;
+    	padding: 14px 16px;
+    	text-decoration: none;
+    	border-right: 1px solid #bbb;
+	}
 
+/* Change the link color to #111 (black) on hover */
+	li a:hover {
+    	background-color: mediumseagreen;
+	}
+	
+li:last-child {
+    border-right: none;
+}
