@@ -5,6 +5,10 @@ xhr.onload = function () {
     responseObject = JSON.parse(xhr.responseText);
 
     var newContent1 = '';
+    var Tips1 = [];
+    var Diary1 = [];
+    var URL1 = [];
+    var Author1 = [];
     for (var i =0; i < responseObject.Managing_Symptoms.length; i++) { // Loop through object
       newContent1 = newContent1 + '<p class="tips">';
       newContent1 += '<b>Tip:</b> ';
@@ -21,9 +25,23 @@ xhr.onload = function () {
       newContent1 += '">';
       newContent1 += responseObject.Managing_Symptoms[i].URL;
       newContent1 += '</a></p>';
+      Tips1[i] = '<b>Tips:</b>' + responseObject.ManagingSymptoms[i].Tip;
+      Diary1[i] = '<b>Post Content:</b> ' + responseObject.ManagingSymptoms[i].FullPost + '</br>';
+      Author1[i] = '<b>Author:</b> ' + responseObject.ManagingSymptoms[i].Author + '</br>';
+      URL1[i] = '<b>URL:</b>' + responseObject.ManagingSymptoms[i].URL + '</br>';
     }
 
-
+    $('div')[0].innerHTML=newContent1;
+ 
+    $('.Managing_Symptoms').hover(function() {
+      thisIndex = $(this).attr('id');
+      var toAppend = Tips1[thisIndex] + Diary1[thisIndex] + Author1[thisIndex] + URL1[thisIndex];
+      $(this).append(toAppend);
+    }, function () {
+        $(this).html(newContent1[thisIndex]);
+    });
+    
+      
       var newContent2 = '';
       for (var i =0; i < responseObject.Relationships.length; i++) { // Loop through object
       newContent2 = newContent2 + '<p class="tips">';
