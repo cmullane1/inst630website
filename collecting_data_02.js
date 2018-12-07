@@ -25,10 +25,10 @@ xhr.onload = function () {
       newContent1 += '">';
       newContent1 += responseObject.Managing_Symptoms[i].URL;
       newContent1 += '</a></p>';
-      Tips1[i] = '<b>Tips:</b>' + responseObject.ManagingSymptoms[i].Tip;
-      Diary1[i] = '<b>Post Content:</b> ' + responseObject.ManagingSymptoms[i].FullPost + '</br>';
-      Author1[i] = '<b>Author:</b> ' + responseObject.ManagingSymptoms[i].Author + '</br>';
-      URL1[i] = '<b>URL:</b>' + responseObject.ManagingSymptoms[i].URL + '</br>';
+      Tips1[i] = '<b>Tips:</b>' + responseObject.Managing_Symptoms[i].Tip + '</br>';
+      Diary1[i] = '<b>Post Content:</b> ' + responseObject.Managing_Symptoms[i].FullPost + '</br>';
+      Author1[i] = '<b>Author:</b> ' + responseObject.Managing_Symptoms[i].Author + '</br>';
+      URL1[i] = '<b>URL:</b>' + responseObject.Managing_Symptoms[i].URL + '</br>';
     }
 
     $('div')[0].innerHTML=newContent1;
@@ -126,5 +126,5 @@ xhr.onload = function () {
   }
 };
 
-xhr.open ('GET', 'js/data_for_project-2.json', true);
+xhr.open ('GET', 'data_for_project-2.json', true);
 xhr.send(null);

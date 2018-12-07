@@ -4,32 +4,37 @@ xhr.onload = function () {
   if (xhr.status === 200) {
     responseObject = JSON.parse(xhr.responseText);
 
-    var newContent1 = '';
+    var x = '';
+    var newContent5 = '';
+    var newContent5 = [];
+    var newContentWithTags = [];
+    var Tips5 = [];
+    var Diary5 = [];
+    var URL5 = [];
+    var Author5 = [];
     for (var i =0; i < responseObject.Advocacy.length; i++) { // Loop through object
-      newContent1 = newContent1 + '<p class="tips">';
-      newContent1 += '<b>Tip:</b> ';
-      newContent1 += responseObject.Advocacy[i].Tip;
-      newContent1 += '<br/>';
-      newContent1 += '<b>Post Content:</b> ';
-      newContent1 += responseObject.Advocacy[i].FullPost;
-      newContent1 += '<br/>';
-      newContent1 += '<b>Author:</b> ';
-      newContent1 += responseObject.Advocacy[i].Author;
-      newContent1 += '<br/>';
-      newContent1 += '<b>URL:</b> <a href="';
-      newContent1 += responseObject.Advocacy[i].URL;
-      newContent1 += '">';
-      newContent1 += responseObject.Advocacy[i].URL;
-      newContent1 += '</a></p>';
+      newContent5[i] = '';
+      newContent5[i] += '<b>Tips: </b>' + responseObject.Advocacy[i].Tip + '</br>';
+      newContentWithTags[i] = '<p class="tips" id="' + i + '">' + newContent5[i] + '</p>' + '</br>';
+   	  x += newContentWithTags [i];
+   	  Diary5[i] += '<b></br>Post Content:</b> ' + responseObject.Advocacy[i].FullPost + '</br>';
+      Author5[i] += '<b></br>Author: </b> ' + responseObject.Advocacy[i].Author + '</br>';
+      URL5[i] += '<b></br>URL: </b>' + responseObject.Advocacy[i].URL + '</br>';
     }
 
+    $('div')[0].innerHTML = x;
  
-            document.getElementById('Advocacy').innerHTML = newContent1;
+    $('.tips').hover(function() {
+      thisIndex = $(this).attr('id');
+      var toAppend = Diary5[thisIndex] + Author5[thisIndex] + URL5[thisIndex];
+      $(this).append(toAppend);
+    }, function () {
+        $(this).html(newContent5[thisIndex]);
+    });
+ 
+           
   }
 };
 
-xhr.open ('GET', 'js/data_for_project-2.json', true);
+xhr.open ('GET', 'data_for_project-2.json', true);
 xhr.send(null);
-
-    
-    
