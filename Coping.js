@@ -22,7 +22,7 @@ xhr.onload = function () {
       URL4[i] += '<b></br>URL: </b>' + responseObject.Coping[i].URL + '</br>';
     }
 
-    $('div')[0].innerHTML = x;
+    $('#Coping4')[0].innerHTML = x;
  
     $('.tips').hover(function() {
       thisIndex = $(this).attr('id');

@@ -22,7 +22,7 @@ xhr.onload = function () {
       URL2[i] += '<b></br>URL: </b>' + responseObject.Relationships[i].URL + '</br>';
     }
 
-    $('div')[0].innerHTML = x;
+    $('#Relationships2')[0].innerHTML = x;
  
     $('.tips').hover(function() {
       thisIndex = $(this).attr('id');

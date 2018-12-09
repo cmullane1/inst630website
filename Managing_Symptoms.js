@@ -22,7 +22,7 @@ xhr.onload = function () {
       URL1[i] += '<b></br>URL: </b>' + responseObject.Managing_Symptoms[i].URL + '</br>';
     }
 
-    $('div')[0].innerHTML = x;
+    $('#Managing_Symptoms1')[0].innerHTML = x;
  
     $('.tips').hover(function() {
       thisIndex = $(this).attr('id');

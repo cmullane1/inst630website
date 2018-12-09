@@ -22,7 +22,7 @@ xhr.onload = function () {
       URL3[i] += '<b></br>URL: </b>' + responseObject.Life_Advice[i].URL + '</br>';
     }
 
-    $('div')[0].innerHTML = x;
+    $('#Life_Advice3')[0].innerHTML = x;
  
     $('.tips').hover(function() {
       thisIndex = $(this).attr('id');

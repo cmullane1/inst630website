@@ -124,13 +124,13 @@
     	
     }
     
-    ul{
+  ul{
     	list-style: none;
     	float: left;
     	margin: 0;
     	padding: 0px;
     	overflow: auto;
-    	background-color: #5ca5d6;
+    	background-color: steelblue;
     	position: fixed;
     	top: 0;
     	width: 100%;
@@ -140,15 +140,13 @@
     	float: left;
     	}
 	a {
-        font-size: 20px;
     	display: inline-block;
-    	color: black;
+    	color: white;
     	text-align: center;
     	padding: 14px 16px;
     	text-decoration: none;
     	border-right: 1px solid #bbb;
 	}
-
 /* Change the link color to #111 (black) on hover */
 	li a:hover {
     	background-color: mediumseagreen;
