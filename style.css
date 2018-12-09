@@ -1,0 +1,155 @@
+  
+	#tfnewsearch{
+		float:right;
+		padding:380px;
+	}
+	.tftextinput{
+		margin: 0;
+		padding: 15px 190px;
+		font-family: Arial, Helvetica, sans-serif;
+		font-size:14px;
+		border:1px solid #0076a3; border-right:0px;
+		border-top-left-radius: 5px 5px;
+		border-bottom-left-radius: 5px 5px;
+	}
+	.tfbutton {
+		margin: 0;
+		padding: 5px 25px 12px;
+		font-family: Arial, Helvetica, sans-serif;
+		font-size:25px;
+		outline: none;
+		cursor: pointer;
+		text-align: center;
+		text-decoration: none;
+		color: #ffffff;
+		border: solid 1px #0076a3; border-right:0px;
+		background: #0095cd;
+		background: -webkit-gradient(linear, left top, left bottom, from(#00adee), to(#0078a5));
+		background: -moz-linear-gradient(top,  #00adee,  #0078a5);
+		border-top-right-radius: 5px 5px;
+		border-bottom-right-radius: 5px 5px;
+	}
+	.tfbutton:hover {
+		text-decoration: none;
+		background: #007ead;
+		background: -webkit-gradient(linear, left top, left bottom, from(#0095cc), to(#00678e));
+		background: -moz-linear-gradient(top,  #0095cc,  #00678e);
+	}
+	/* Fixes submit button height problem in Firefox */
+	.tfbutton::-moz-focus-inner {
+	  border: 0;
+	}
+	.tfclear{
+		clear:both;
+	}
+    #Managing_Symptoms{
+        font-size: 20px;
+        text-align: center;
+        background-color: skyblue;
+        border-radius: 10px;
+        border-style: solid;
+        border-color: darkslategray;
+        position: absolute;
+        top: 500px;
+        left: 220px;
+    }
+        
+#Relationships{
+        font-size: 20px;
+        text-align: center;
+        background-color: lightpink;
+        border-radius: 10px;
+        color: darkslategray;
+        border-style: solid;
+        border-color: darkslategray;
+        position: absolute;
+        top: 500px;
+        left: 500px;
+    }    
+    #Advocacy{
+        font-size: 20px;
+        text-align: center;
+        background-color: darkseagreen;
+        border-radius: 10px;
+        color: darkslategray;
+        border-style: solid;
+        border-color: darkslategray;
+        position: absolute;
+        top: 500px;
+        left: 710px;
+    }    
+    #Coping{
+        font-size: 20px;
+        text-align: center;
+        background-color: palegoldenrod;
+        border-radius: 10px;
+        color: darkslategray;
+        border-style: solid;
+        border-color: darkslategray;
+        position: absolute;
+        top: 500px;
+        left: 890px;
+    }
+        #Life_Advice{
+        font-size: 20px;
+        text-align: center;
+        background-color: plum;
+        border-radius: 10px;
+        color: darkslategray;
+        border-style: solid;
+        border-color: darkslategray;
+        position: absolute;
+        top: 500px;
+        left: 1050px;
+    }
+    
+    h7{
+        font-size: 45px;
+         position: absolute;
+        top: 250px;
+        left: 480px;
+    }
+    h8{
+    	font-size: 20px;
+    	text-align: center;
+        padding: 10px;
+        background-color: lemonchiffon;
+        border-radius: 10px;
+        color: darkslategray;
+        border-style: solid;
+        border-color: darkslategray;
+    	position: absolute;
+    	top: 47px;
+    	left: 300px;
+    	
+    }
+    
+    ul{
+    	list-style: none;
+    	float: left;
+    	margin: 0;
+    	padding: 0px;
+    	overflow: auto;
+    	background-color: #5ca5d6;
+    	position: fixed;
+    	top: 0;
+    	width: 100%;
+	}
+     
+    li {
+    	float: left;
+    	}
+	a {
+        font-size: 20px;
+    	display: inline-block;
+    	color: black;
+    	text-align: center;
+    	padding: 14px 16px;
+    	text-decoration: none;
+    	border-right: 1px solid #bbb;
+	}
+
+/* Change the link color to #111 (black) on hover */
+	li a:hover {
+    	background-color: mediumseagreen;
+	}
