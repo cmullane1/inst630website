@@ -176,5 +176,5 @@
         border-style: solid;
         border-color: black;
 	padding: 20px;
-	align-content: center;
+    text-align: center;
 }
