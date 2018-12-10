@@ -1,5 +1,8 @@
   
-	#tfnewsearch{
+body{
+font-size: 40px;
+}
+#tfnewsearch{
 		float:right;
 		padding:380px;
 	}
