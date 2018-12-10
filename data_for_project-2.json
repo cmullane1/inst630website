@@ -1,9 +1,6 @@
 { 
 "Managing_Symptoms": [ 
 			{
-				"Tip": "Managing Symptoms"
-			},
-			{
 				"Tip": "Be Kind to Yourself. When you experience sensory overload, retire to a quiet place and take some mindful moments."
 				"FullPost": "Good morning my fellow dementia diarists, it’s me Agnes from Scotland preparing for the last event of the year. It’s at the Glasgow Film Festival theatre, they’re showing a Dementia Friendly Screening of White Christmas. It’s been fully booked over the last few weeks so it’s going to be challenging I’m sure, but fun. I’m on duty as a volunteer and an advisory member of the committee. I’m getting prepared, I’ve got my Santa hat out, I’ve got my Christmas cheer now let the show begin! Merry Christmas everybody and please remember be kind to yourself. Be aware that Christmas cheer is not for everyone and we can get sensory overload. So just retire- my spot seems to be the bathroom, the quietest place in the house- so that you can take some mindful moments, gather your thoughts, be grateful and go out and enjoy what you do. Take Care! Bye for now!" 
 				"Author": "Agnes Houston"
@@ -189,7 +186,7 @@
 		],	
 "Advocacy": [
 			{
-				"Tip": "Advocacy"
+				"Tip":"Advocacy"
 			},
 			{
 				"Tip":"Promote joint decision making, not substitute decision making, in order to ascertain the will and preference of people with dementia.",
