@@ -166,7 +166,55 @@
 	li a:hover {
     	background-color: mediumseagreen;
 	}
+#Managing_Symptoms1 {
+	font-size: 40px;
+	width: 800px;
+	margin-top: 100px;
+	margin-bottom: 0;
+	border-radius: 10px;
+        border-style: solid;
+        border-color: black;
+	padding: 20px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#Relationships2 {
+	font-size: 40px;
+	width: 800px;
+	margin-top: 100px;
+	margin-bottom: 0;
+	border-radius: 10px;
+        border-style: solid;
+        border-color: black;
+	padding: 20px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#Life_Advice3 {
+	font-size: 40px;
+	width: 800px;
+	margin-top: 100px;
+	margin-bottom: 0;
+	border-radius: 10px;
+        border-style: solid;
+        border-color: black;
+	padding: 20px;
+	margin-left: auto;
+	margin-right: auto;
+}
 
+#Coping4 {
+	font-size: 40px;
+	width: 800px;
+	margin-top: 100px;
+	margin-bottom: 0;
+	border-radius: 10px;
+        border-style: solid;
+        border-color: black;
+	padding: 20px;
+	margin-left: auto;
+	margin-right: auto;
+}
 #Advocacy5 {
 	font-size: 40px;
 	width: 800px;
