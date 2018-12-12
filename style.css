@@ -231,7 +231,8 @@
 
 #TipReturn {
 	font-size: 25px;
-		margin-top: -300px;
+		margin-top: -1000px;
+		margin-bottom: 20px;
 	width: 800px;
 	border-radius: 10px;
         border-style: solid;
