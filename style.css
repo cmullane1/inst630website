@@ -66,7 +66,7 @@
     	color: black;
         position: absolute;
         top: 500px;
-        left: 220px;
+        left: 210px;
     }
         
 #Relationships{
@@ -79,7 +79,7 @@
         border-color: darkslategray;
         position: absolute;
         top: 500px;
-        left: 500px;
+        left: 495px;
     }    
     #Advocacy{
         font-size: 25px;
@@ -91,7 +91,7 @@
         border-color: darkslategray;
         position: absolute;
         top: 500px;
-        left: 710px;
+        left: 707px;
     }    
     #Coping{
         font-size: 25px;
