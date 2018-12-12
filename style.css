@@ -140,6 +140,7 @@
     }
     
   ul{
+	font-size: 10px;
     	list-style: none;
     	float: left;
     	margin: 0;
@@ -167,7 +168,7 @@
     	background-color: mediumseagreen;
 	}
 #Managing_Symptoms1 {
-	font-size: 30px;
+	font-size: 25px;
 	width: 800px;
 	margin-top: 100px;
 	margin-bottom: 0;
@@ -179,7 +180,7 @@
 	margin-right: auto;
 }
 #Relationships2 {
-	font-size: 30px;
+	font-size: 25px;
 	width: 800px;
 	margin-top: 100px;
 	margin-bottom: 0;
@@ -191,7 +192,7 @@
 	margin-right: auto;
 }
 #Life_Advice3 {
-	font-size: 30px;
+	font-size: 25px;
 	width: 800px;
 	margin-top: 100px;
 	margin-bottom: 0;
@@ -204,7 +205,7 @@
 }
 
 #Coping4 {
-	font-size: 30px;
+	font-size: 25px;
 	width: 800px;
 	margin-top: 100px;
 	margin-bottom: 0;
@@ -216,7 +217,7 @@
 	margin-right: auto;
 }
 #Advocacy5 {
-	font-size: 30px;
+	font-size: 25px;
 	width: 800px;
 	margin-top: 100px;
 	margin-bottom: 0;
@@ -229,7 +230,7 @@
 }
 
 #TipReturn {
-	font-size: 30px;
+	font-size: 25px;
 	width: 800px;
 	margin-top: 100px;
 	margin-bottom: 0;
