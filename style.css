@@ -58,7 +58,7 @@
 
 
     #Managing_Symptoms{
-        font-size: 20px;
+        font-size: 25px;
         text-align: center;
         background-color: skyblue;
         border-radius: 10px;
@@ -70,7 +70,7 @@
     }
         
 #Relationships{
-        font-size: 20px;
+        font-size: 25px;
         text-align: center;
         background-color: lightpink;
         border-radius: 10px;
@@ -82,7 +82,7 @@
         left: 500px;
     }    
     #Advocacy{
-        font-size: 20px;
+        font-size: 25px;
         text-align: center;
         background-color: darkseagreen;
         border-radius: 10px;
@@ -94,7 +94,7 @@
         left: 710px;
     }    
     #Coping{
-        font-size: 20px;
+        font-size: 25px;
         text-align: center;
         background-color: palegoldenrod;
         border-radius: 10px;
@@ -106,7 +106,7 @@
         left: 890px;
     }
         #Life_Advice{
-        font-size: 20px;
+        font-size: 25px;
         text-align: center;
         background-color: plum;
         border-radius: 10px;
